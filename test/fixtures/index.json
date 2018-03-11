@@ -1,28 +1,27 @@
 {
   "valid": [
     {
-      "xpub": "xprv9s21ZrQH143K2JF8RafpqtKiTbsbaxEeUaMnNHsm5o6wCW3z8ySyH4UxFVSfZ8n7ESu7fgir8imbZKLYVBxFPND1pniTZ81vKfd45EHKX73",
+      "master": "xprv9s21ZrQH143K2JF8RafpqtKiTbsbaxEeUaMnNHsm5o6wCW3z8ySyH4UxFVSfZ8n7ESu7fgir8imbZKLYVBxFPND1pniTZ81vKfd45EHKX73",
       "coinType": "0",
       "bip32path": "m/175'/0'",
       "xpubContractBase": "xpub6B3JSEWjqm5GgfzcjPwBixxLPzi15pFM3jq4E4yCzXXUFS5MFdXiSdw7b5dbdPGHuc7c1V4zXbbFRtc9G1njMUt9ZvMdGVGYQSQsurD6HAW",
-      "doc1": "bar",
-      "doc2": "foo",
-      "doc1hash": "fcde2b2edba56bf408601fb721fe9b5c338d10ee429ea04fae5511b68fbf8fb9",
-      "doc2hash": "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae",
+      "docs": {
+        "bar": "fcde2b2edba56bf408601fb721fe9b5c338d10ee429ea04fae5511b68fbf8fb9",
+        "foo": "2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae"
+      },
       "hashSorted": ["2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae", "fcde2b2edba56bf408601fb721fe9b5c338d10ee429ea04fae5511b68fbf8fb9"],
-      "hashConCat": "xpub6B3JSEWjqm5GgfzcjPwBixxLPzi15pFM3jq4E4yCzXXUFS5MFdXiSdw7b5dbdPGHuc7c1V4zXbbFRtc9G1njMUt9ZvMdGVGYQSQsurD6HAW2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7aefcde2b2edba56bf408601fb721fe9b5c338d10ee429ea04fae5511b68fbf8fb9",
+      "hashConcat": "xpub6B3JSEWjqm5GgfzcjPwBixxLPzi15pFM3jq4E4yCzXXUFS5MFdXiSdw7b5dbdPGHuc7c1V4zXbbFRtc9G1njMUt9ZvMdGVGYQSQsurD6HAW2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7aefcde2b2edba56bf408601fb721fe9b5c338d10ee429ea04fae5511b68fbf8fb9",
       "hashCombined": "310057788c6073640dc222466d003411cd5c1cc0bf2803fc6ebbfae03ceb4451",
-      "hashCombinedDerivePath": "12544/22392/35936/29540/3522/8774/27904/13329/52572/7360/48936/1020/28347/64224/15595/17489",
+      "hashCombinedPath": "12544/22392/35936/29540/3522/8774/27904/13329/52572/7360/48936/1020/28347/64224/15595/17489",
       "contractBasePath": "m/175'/0'/12544/22392/35936/29540/3522/8774/27904/13329/52572/7360/48936/1020/28347/64224/15595/17489",
       "xpubPayment": "xpub6hefaATTG5LbcwyPDvmNfnkyzefoM2TJDoo5astH7Gvs1g8vZURviBWvAvBnWc2CNb8ybJ6mDpnQYVsvNSZ3oUmbssX3rUVG97TFYa6AXVk",
       "P2PKHAddress": "1C7f322izqMqLzZzfzkPAjxBzprxDi47Yf"
     },
     {
-      "doc1": "baz",
-      "doc1hash": "baa5a0964d3320fbc0c6a922140453c8513ea24ab8fd0577034804a967248096",
+      "docs": {"baz": "baa5a0964d3320fbc0c6a922140453c8513ea24ab8fd0577034804a967248096"},
       "xpubContractBase": "xpub6B3JSEWjqm5GgfzcjPwBixxLPzi15pFM3jq4E4yCzXXUFS5MFdXiSdw7b5dbdPGHuc7c1V4zXbbFRtc9G1njMUt9ZvMdGVGYQSQsurD6HAWbaa5a0964d3320fbc0c6a922140453c8513ea24ab8fd0577034804a967248096",
-      "hash": "3a08605829413ce0bf551b08d21e4a28dbda6e407f90eff1c448e839050c73a1",
-      "hashCombinedBasePath": "5338/54412/19213/962/30664/62597/11873/59874/56779/24089/54550/19585/28087/36422/18666/17562",
+      "hashCombined": "3a08605829413ce0bf551b08d21e4a28dbda6e407f90eff1c448e839050c73a1",
+      "hashCombinedPath": "5338/54412/19213/962/30664/62597/11873/59874/56779/24089/54550/19585/28087/36422/18666/17562",
       "contractBasePath": "m/175'/0'/5338/54412/19213/962/30664/62597/11873/59874/56779/24089/54550/19585/28087/36422/18666/17562",
       "xpubPayment": "xpub6h9k2KqsMpwghxt7naj1puhGV1ZDC88sxvpYN1HibCf8yQZdPsuhYmmvdK32Kf2Lb3rS1sV8UcZ1f84DJEiXuVfLCAj4bC85aEUCxh38m8i",
       "P2PKHAddress": "1QGe5LaDMAmHeibJbZBmZqhQDZSp7QCqSs",
