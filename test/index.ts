@@ -28,4 +28,27 @@ tv.valid.forEach((suite: any) => {
       docHashSorted.reduce((a: string, b: string) => a + b );
     t.deepEqual(suite.hashConcat, hashConcatenated);
   })
+
+  test('can derive root Hash', t => {
+    if (!suite.xpubContractBase || !suite.master) {
+      t.pass()
+      return;
+    }
+  const docHashSorted = derivedDocHash.map(h => h.toString('hex')).sort();
+    console.log('master is ', suite.master);
+    let p2ch = new P2CH(docs, 0, suite.master);
+    let derivedRootHash = p2ch.deriveRootHash();
+    t.deepEqual(derivedRootHash, suite.hashCombined)
+  })
+
+  test('can make address for payment', t => {
+    if (!suite.xpubContractBase || !suite.master) {
+      t.pass()
+      return;
+    };
+
+    let p2ch = new P2CH(docs, 0, suite.master);
+    let address = p2ch.deriveAddress();
+    t.deepEqual(address, suite.P2PKHAddress);
+  })
 });
